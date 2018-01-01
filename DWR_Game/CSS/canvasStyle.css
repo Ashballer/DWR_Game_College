@@ -1,0 +1,44 @@
+#gamebox { 
+	border: 2px solid #000000;
+	margin: 3% 3% 3% 3%; 
+	position: absolute;
+	z-index: 3;
+}
+#background {
+	margin: 3% 3% 3% 3%;
+	position: relative;
+	opacity: 0.3;
+	z-index: -5;
+}
+
+#cv2 {
+	border: 2px solid #000000;
+	margin: 3% 3% 3% 3%; 
+	position: relative;
+	background-image: url("https://media3.giphy.com/media/VuISpVQ1glP68/giphy.gif");
+	z-index: 1;
+	opacity: 0.3;
+}
+
+button {
+	background-color: black;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+	font-family: times;
+    display: inline-block;
+    font-size: 24px;
+    margin: 10px 8px;
+    cursor: pointer;
+	transition-duration: 0.5s;
+	float: none;
+    margin: 0 auto;
+	position: 
+}
+
+button:hover {
+	background-color: gray;
+	color: black;
+}

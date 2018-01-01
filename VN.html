@@ -1,0 +1,29 @@
+	<html>
+<head>
+	<title>DWR Bay Delta Game</title>
+	<meta charset="UTF-8">
+	<link rel = "stylesheet" type = "text/css" href = "DWR_Game\CSS\scriptStyle.css">
+	<script type = "text/javascript" src = "DWR_Game\JavaScript\ScriptEngineJS-vine.js"></script>
+	<script type = "text/javascript" src = "DWR_Game\JavaScript\ScriptJS.js"></script>
+	
+</head>
+	<body onload="initNovel(800, 600);">
+
+		<div id="novelDiv">
+		<div style="position: absolute; left:0; top: 0; z-index:-1">
+			<img id="background0" src="empty.png"/>
+		</div>
+		<div style="position: absolute; left:0; top: 0; z-index:-1">
+			<img id="background1" src="empty.png"/>
+		</div>
+		</div>
+		<div id="dialogDiv"></div>
+
+		<p style="text-align:center">
+		<input type="button" value="Restart the Novel"
+        onclick="initNovel(800, 600)"/>
+		</p>
+		
+	</body>
+
+</html>
