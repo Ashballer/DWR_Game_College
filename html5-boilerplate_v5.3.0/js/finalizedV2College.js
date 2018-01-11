@@ -12,7 +12,7 @@ function preload() {
 	game.scale.pageAlignVertically = true;
 	game.scale.refresh();
 	game.load.image('barrier', 'DWR_Game/assets/barrier.png');
-	game.load.image('smolt', 'DWR_Game/assets/smolt.gif');
+	game.load.image('smolt', 'DWR_Game/assets/smolt.png');
 	game.load.image('barrierOpen', 'DWR_Game/assets/barrier_open.jpg');
 	game.load.image('barrierClose', 'DWR_Game/assets/barrier_close.jpg');
 	game.load.image('fullBarrier', 'DWR_Game/assets/Full_barrier.jpg');
@@ -20,7 +20,7 @@ function preload() {
 	game.load.image('boat', 'DWR_Game/assets/boat.png');
 	game.load.image('fullDelta', 'DWR_Game/assets/full_nonbarrier.jpg');
 	game.load.image('blank', 'DWR_Game/assets/blank.png');
-	game.load.image('bassBoat', 'DWR_Game/assets/bassBoatA.gif');
+	game.load.image('bassBoat', 'DWR_Game/assets/bassBoatA.png');
 	game.load.audio('crash', 'DWR_Game/assets/crash.mp3');
 	game.load.audio('river', 'DWR_Game/assets/river.mp3');
 }
